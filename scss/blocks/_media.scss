@@ -1,0 +1,113 @@
+
+
+@media only screen and (max-width: 577px) {
+    .header__desc-wrapper {
+        flex-wrap: wrap;
+        row-gap: 32px;
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header__wrapper {
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .header-nav__button5 {
+        display: inline-block;
+    }
+    
+    .header__input {
+        padding: 12px 200px 12px 64px;
+    }
+    
+    .hero-start {
+        background-image: url("/images/mediabg.png"), url("/images/herocar.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: center,  calc(50% + 4px) calc(50% + 100px);
+    }
+
+    .hero-end {
+        background-image: url("/images/hero2bg.png"), url("/images/hero2car.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: center, calc(50% + 4px) calc(50% + 100px);
+    }
+
+    .hero-end__wrapper {
+        width: 250px;
+    }
+
+    .hero-start__wrapper {
+        width: 280px;
+
+    }
+
+    .hero {
+        overflow-x: scroll;
+    }
+
+    .hero-start__title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .hero-end__title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .hero-start__text {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .hero-end__text {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .hero-end__title {
+        font-size: 20px;
+    }
+    .hero-end__text {
+        font-size: 14px;
+    }
+
+    .popular {
+        overflow-x: scroll;
+    }
+
+    .popular-item:nth-child(odd)::after {
+        left: 210px;
+    }
+
+    .popular-item:nth-child(even)::after {
+        left: 210px;
+    }
+
+    .popular-item__link {
+        margin-left: 16px;
+    }
+
+    .popular-item__wrapper {
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+    }
+
+    .popular-item__strong {
+        font-size: 16px;
+    }
+
+    .footer-end__wrapper {
+        width: 260px;
+        row-gap: 15px;
+        }
+
+
+}
+

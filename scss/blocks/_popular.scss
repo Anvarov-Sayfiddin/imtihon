@@ -1,0 +1,205 @@
+
+.popular {
+    padding-bottom: 32px;
+}
+
+.popular__desc-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.popular__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #90a3bf;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popular__link {
+    text-decoration: none;
+    color: #3563e9;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popular__list {
+    display: flex;
+    column-gap: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.popular-item {
+    position: relative;
+    max-width: 304px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.popular-item:nth-child(odd)::after {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    display: inline-block;
+    background-image: url("/images/likered.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    content: "";
+
+}
+
+.popular-item:nth-child(even)::after {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    display: inline-block;
+    background-image: url("/images/likehover.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    content: "";
+
+}
+
+.popular-item__wrapper {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+.popular-item__title {
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: #1a202c;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.6px;
+}
+
+.popular-item__text {
+    margin-top: 0;
+    margin-bottom: 64px;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+}
+
+.popular-item__img {
+    margin-bottom: 64px;
+}
+
+.people-item__icon-wrapper {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.popular-item__benzin {
+    display: flex;
+    align-items: center;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+}
+
+.popular-item__benzin::before {
+    display: inline-block;
+    background-image: url("/images/zapravka.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    content: "";
+    margin-right: 6px;
+}
+
+.popular-item__coin {
+    display: flex;
+    align-items: center;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+}
+
+.popular-item__coin::before {
+    display: inline-block;
+    background-image: url("/images/coin.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    content: "";
+    margin-right: 4px;
+}
+
+.popular-item__people {
+    display: flex;
+    align-items: center;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+}
+
+.popular-item__people::before {
+    display: inline-block;
+    background-image: url("/images/people.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    content: "";
+    margin-right: 6px;
+}
+
+.popular-item__strong {
+    color: #1a202c;;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.popular-item__box {
+    color: #90a3bf;;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.popular-item__link {
+    display: inline-block;
+    margin-left: 24px;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #3563e9;
+    color: #fff;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}

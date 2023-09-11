@@ -1,0 +1,1201 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2"), url("../fonts/plus-jakarta-sans-v8-latin-500.woff") format("woff");
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-600.woff2") format("woff2"), url("../fonts/plus-jakarta-sans-v8-latin-600.woff") format("woff");
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2"), url("../fonts/plus-jakarta-sans-v8-latin-700.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f7f9;
+  height: 100%;
+  margin: 0;
+}
+
+.site-main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  max-width: 1390px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__desc-wrapper {
+  position: relative;
+  max-width: 704px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.header__input {
+  padding: 12px 279px 12px 64px;
+  border: 1px solid #edf2f8;
+  border-radius: 70px;
+}
+
+.header-nav__list {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.header-nav__button1 {
+  display: inline-block;
+  background-image: url("/images/like.svg");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+}
+
+.header-nav__button2 {
+  display: inline-block;
+  background-image: url("/images/notification.svg");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+}
+
+.header-nav__button3 {
+  display: inline-block;
+  background-image: url("/images/settings.svg");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+}
+
+.header-nav__button4 {
+  display: inline-block;
+  background-image: url("/images/profil.png");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+}
+
+.header-nav__button5 {
+  display: none;
+  background-image: url("/images/profil.png");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+}
+
+.hero {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero__wrapper {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+
+.hero-start {
+  max-width: 640px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-color: #54a6ff;
+  padding-top: 24px;
+  padding-right: 332px;
+  padding-bottom: 112px;
+}
+
+.hero-start__wrapper {
+  max-width: 284px;
+  width: 100%;
+}
+
+.hero-start__title {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.96px;
+}
+
+.hero-start__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.hero-start__link {
+  display: flex;
+  justify-content: center;
+  max-width: 120px;
+  width: 100%;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  background-color: #3563e9;
+  border-radius: 4px;
+}
+
+.hero__end {
+  max-width: 640px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #3563e9;
+  background-image: url("/images/bg2.png");
+  background-repeat: no-repeat;
+  padding-top: 24px;
+  padding-right: 332px;
+  padding-bottom: 112px;
+}
+
+.hero-end__wrapper {
+  max-width: 284px;
+  width: 100%;
+}
+
+.hero-end__title {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.96px;
+}
+
+.hero-end__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.hero-end__link {
+  display: flex;
+  justify-content: center;
+  max-width: 120px;
+  width: 100%;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  background-color: #54a6ff;
+  border-radius: 4px;
+}
+
+.popular {
+  padding-bottom: 32px;
+}
+
+.popular__desc-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.popular__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #90a3bf;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popular__link {
+  text-decoration: none;
+  color: #3563e9;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popular__list {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.popular-item {
+  position: relative;
+  max-width: 304px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.popular-item:nth-child(odd)::after {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  display: inline-block;
+  background-image: url("/images/likered.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+}
+
+.popular-item:nth-child(even)::after {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  display: inline-block;
+  background-image: url("/images/likehover.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+}
+
+.popular-item__wrapper {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.popular-item__title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #1a202c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.6px;
+}
+
+.popular-item__text {
+  margin-top: 0;
+  margin-bottom: 64px;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.popular-item__img {
+  margin-bottom: 64px;
+}
+
+.people-item__icon-wrapper {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.popular-item__benzin {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.popular-item__benzin::before {
+  display: inline-block;
+  background-image: url("/images/zapravka.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 6px;
+}
+
+.popular-item__coin {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.popular-item__coin::before {
+  display: inline-block;
+  background-image: url("/images/coin.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 4px;
+}
+
+.popular-item__people {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.popular-item__people::before {
+  display: inline-block;
+  background-image: url("/images/people.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 6px;
+}
+
+.popular-item__strong {
+  color: #1a202c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular-item__box {
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular-item__link {
+  display: inline-block;
+  margin-left: 24px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #3563e9;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.recomendation {
+  padding-bottom: 64px;
+}
+
+.recomendation__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: normal;
+}
+
+.recomendation__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 0;
+  margin-bottom: 64px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.recomendation-item {
+  position: relative;
+  max-width: 304px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.recomendation-item:nth-child(even)::after {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  display: inline-block;
+  background-image: url("/images/likered.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+}
+
+.recomendation-item:nth-child(odd)::after {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  display: inline-block;
+  background-image: url("/images/likehover.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+}
+
+.recomendation-item__wrapper {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.recomendation-item__title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #1a202c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.6px;
+}
+
+.recomendation-item__text {
+  margin-top: 0;
+  margin-bottom: 64px;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.recomendation-item__img {
+  margin-bottom: 64px;
+}
+
+.recomendation-item__icon-wrapper {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.recomendation-item__benzin {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.recomendation-item__benzin::before {
+  display: inline-block;
+  background-image: url("/images/zapravka.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 6px;
+}
+
+.recomendation-item__coin {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.recomendation-item__coin::before {
+  display: inline-block;
+  background-image: url("/images/coin.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 4px;
+}
+
+.recomendation-item__people {
+  display: flex;
+  align-items: center;
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.recomendation-item__people::before {
+  display: inline-block;
+  background-image: url("/images/people.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-right: 6px;
+}
+
+.recomendation-item__strong {
+  color: #1a202c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.recomendation-item__box {
+  color: #90a3bf;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.recomendation-item__link {
+  display: inline-block;
+  margin-left: 24px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #3563e9;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.recomendation__link-wrapper {
+  max-width: 734px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.recomendation__link {
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: #3563e9;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.recomendation__desc {
+  color: #90a3bf;
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.site-footer {
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+.footer-start {
+  padding-bottom: 36px;
+  border-bottom: 1px solid rgba(19, 19, 19, 0.1607843137);
+}
+
+.footer-start__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.footer-start__logo-wrapper {
+  max-width: 292px;
+  width: 100%;
+  margin-right: auto;
+}
+
+.footer-start__text {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  color: rgba(19, 19, 19, 0.6);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.footer-start__tel {
+  text-decoration: none;
+  margin-bottom: 17px;
+  color: rgba(19, 19, 19, 0.6);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.footer-start__email {
+  text-decoration: none;
+  color: rgba(19, 19, 19, 0.6);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.footer-start__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-right: 60px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.footer-start__item {
+  color: rgba(19, 19, 19, 0.6);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.footer-start__last-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.footer-start__last-item {
+  color: rgba(19, 19, 19, 0.6);
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+strong {
+  color: #000;
+}
+
+.footer__end {
+  padding-top: 36px;
+}
+
+.footer-end__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-end__list {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.footer-end__box {
+  max-width: 200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 577px) {
+  .header__desc-wrapper {
+    flex-wrap: wrap;
+    row-gap: 32px;
+    max-width: 180px;
+    width: 100%;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header__wrapper {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .header-nav__button5 {
+    display: inline-block;
+  }
+  .header__input {
+    padding: 12px 200px 12px 64px;
+  }
+  .hero-start {
+    background-image: url("/images/mediabg.png"), url("/images/herocar.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, calc(50% + 4px) calc(50% + 100px);
+  }
+  .hero-end {
+    background-image: url("/images/hero2bg.png"), url("/images/hero2car.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, calc(50% + 4px) calc(50% + 100px);
+  }
+  .hero-end__wrapper {
+    width: 250px;
+  }
+  .hero-start__wrapper {
+    width: 280px;
+  }
+  .hero {
+    overflow-x: scroll;
+  }
+  .hero-start__title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .hero-end__title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .hero-start__text {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .hero-end__text {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .hero-end__title {
+    font-size: 20px;
+  }
+  .hero-end__text {
+    font-size: 14px;
+  }
+  .popular {
+    overflow-x: scroll;
+  }
+  .popular-item:nth-child(odd)::after {
+    left: 210px;
+  }
+  .popular-item:nth-child(even)::after {
+    left: 210px;
+  }
+  .popular-item__link {
+    margin-left: 16px;
+  }
+  .popular-item__wrapper {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+  }
+  .popular-item__strong {
+    font-size: 16px;
+  }
+  .footer-end__wrapper {
+    width: 260px;
+    row-gap: 15px;
+  }
+}/*# sourceMappingURL=main.css.map */

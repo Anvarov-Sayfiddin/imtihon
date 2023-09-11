@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>exam</title>
+</head>
+<body>
+
+    <header class="header"> 
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__desc-wrapper">
+                    <a class="logo" href="./index.html">
+                        <img src="./images/logo.svg" 
+                        width="148"
+                        height="44"
+                        alt="logo">
+                    </a>
+                    <div class="header__box"></div>
+                    <input class="header__input" type="text" aria-label="Search something here" placeholder="Search something here">
+                </div>
+                <nav class="header__nav header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item"><button class="header-nav__button1" type="button"></button></li>
+                        <li class="header-nav__item"><button class="header-nav__button2" type="button"></button></li>
+                        <li class="header-nav__item"><button class="header-nav__button3" type="button"></button></li>
+                        <li class="header-nav__item"><button class="header-nav__button4" type="button"></button></li>
+                    </ul>
+                </nav>
+                <button class="header-nav__button5" type="button"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="visually-hidden">exam</h1>
+                <h2 class="visually-hidden">exam</h2>
+                <div class="hero__wrapper">
+                    <div class="hero__start hero-start">
+                        <div class="container">
+                            <div class="hero-start__wrapper">
+                                <h3 class="hero-start__title">The Best Platform for Car Rental</h3>
+                                <p class="hero-start__text">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                                <a class="hero-start__link" href="#">Rental Car</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__end hero-end">
+                        <div class="container">
+                            <div class="hero-end__wrapper">
+                                <h3 class="hero-end__title">Easy way to rent a car at a low price</h3>
+                                <p class="hero-end__text">Providing cheap car rental services and safe and comfortable facilities.</p>
+                                <a class="hero-end__link" href="#">Rental Car</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <section class="filter"> 
+            <!-- <div class="container">
+                <div class="filter__start filter-start">
+                    <button class="filter-start__button" type="checkbox"></button>
+                    <span class="filter-start__mini-box"></span>
+                    <ul class="filter-start__list">
+                        <li class="filter-start__item"></li>
+                        <li class="filter-start__item"></li>
+                        <li class="filter-start__item"></li>
+                    </ul>
+                </div>
+
+
+                <button></button>
+                <div class="filter__end filter-end"></div>
+            </div> -->
+        </section>
+
+        <section class="popular">
+            <div class="container">
+                <div class="popular__desc-wrapper">
+                    <p class="popular__text">Popular Car</p>
+                    <a class="popular__link" href="#">View All</a>
+                </div>
+                <ul class="popular__list">
+                    <li class="popular__item popular-item">
+                        <div class="popular-item__wrapper">
+                            <h3 class="popular-item__title">Koenigsegg</h3>
+                            <p class="popular-item__text">Sport</p>
+                            <img class="popular-item__img" src="./images/koenigsegg.png" 
+                            width="232"
+                            height="72"
+                            alt="car">
+                            <div class="people-item__icon-wrapper">
+                                <span class="popular-item__benzin">90L</span>
+                                <span class="popular-item__coin">Manual</span>
+                                <span class="popular-item__people">2 People</span>
+                            </div>
+                            <strong class="popular-item__strong">$99.00/ <span class="popular-item__box">day</span></strong>
+                            <a class="popular-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="popular__item popular-item">
+                        <div class="popular-item__wrapper">
+                            <h3 class="popular-item__title">Nissan GT - R</h3>
+                            <p class="popular-item__text">Sport</p>
+                            <img class="popular-item__img" src="./images/nissan.png" 
+                            width="204"
+                            height="64"
+                            alt="car">
+                            <div class="people-item__icon-wrapper">
+                                <span class="popular-item__benzin">80L</span>
+                                <span class="popular-item__coin">Manual</span>
+                                <span class="popular-item__people">2 People</span>
+                            </div>
+                            <strong class="popular-item__strong">$80.00/ <span class="popular-item__box">day</span></strong>
+                            <a class="popular-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="popular__item popular-item">
+                        <div class="popular-item__wrapper">
+                            <h3 class="popular-item__title">Rolls - Royce</h3>
+                            <p class="popular-item__text">Sedan</p>
+                            <img class="popular-item__img" src="./images/rollsroyce.png" 
+                            width="220"
+                            height="68"
+                            alt="car">
+                            <div class="people-item__icon-wrapper">
+                                <span class="popular-item__benzin">70L</span>
+                                <span class="popular-item__coin">Manual</span>
+                                <span class="popular-item__people">4 People</span>
+                            </div>
+                            <strong class="popular-item__strong">$96.00/ <span class="popular-item__box">day</span></strong>
+                            <a class="popular-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="popular__item popular-item">
+                        <div class="popular-item__wrapper">
+                            <h3 class="popular-item__title">Nissan GT - R</h3>
+                            <p class="popular-item__text">Sport</p>
+                            <img class="popular-item__img" src="./images/nissan.png" 
+                            width="204"
+                            height="64"
+                            alt="car">
+                            <div class="people-item__icon-wrapper">
+                                <span class="popular-item__benzin">80L</span>
+                                <span class="popular-item__coin">Manual</span>
+                                <span class="popular-item__people">2 People</span>
+                            </div>
+                            <strong class="popular-item__strong">$80.00/ <span class="popular-item__box">day</span></strong>
+                            <a class="popular-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="recomendation">
+            <div class="container">
+                <p class="recomendation__text">Recomendation Car</p>
+                <ul class="recomendation__list">
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">All New Rush</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/rush.png" 
+                            width="224"
+                            height="100"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">70L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">2 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$72.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">CR  - V</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/crv.png" 
+                            width="248"
+                            height="100"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">80L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">6 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$80.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">All New Terios</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/terlos.png" 
+                            width="224"
+                            height="100"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">90L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">6 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$74.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">CR  - V</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/crvblack.png" 
+                            width="248"
+                            height="100"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">80L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">6 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$80.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">MG ZX Exclusice</h3>
+                            <p class="recomendation-item__text">Hatchback</p>
+                            <img class="recomendation-item__img" src="./images/mgzx.png" 
+                            width="264"
+                            height="108"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">70L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">4 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$76.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">New MG ZS</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/mgzs.png" 
+                            width="288"
+                            height="112"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">80L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">6 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$80.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">MG ZX Excite</h3>
+                            <p class="recomendation-item__text">Hatchback</p>
+                            <img class="recomendation-item__img" src="./images/mgzx.png" 
+                            width="264"
+                            height="108"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">90L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">4 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$74.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="recomendation__item recomendation-item">
+                        <div class="recomendation-item__wrapper">
+                            <h3 class="recomendation-item__title">New MG ZS</h3>
+                            <p class="recomendation-item__text">SUV</p>
+                            <img class="recomendation-item__img" src="./images/mgzs.png" 
+                            width="288"
+                            height="112"
+                            alt="car">
+                            <div class="recomendation-item__icon-wrapper">
+                                <span class="recomendation-item__benzin">80L</span>
+                                <span class="recomendation-item__coin">Manual</span>
+                                <span class="recomendation-item__people">6 People</span>
+                            </div>
+                            <strong class="recomendation-item__strong">$80.00/ <span class="recomendation-item__box">day</span></strong>
+                            <a class="recomendation-item__link" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="recomendation__link-wrapper">
+                    <a class="recomendation__link" href="#">Show more car</a>
+                    <p class="recomendation__desc">120 Car</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer footer">
+        <div class="footer__start footer-start">
+            <div class="container">
+                <div class="footer-start__wrapper">
+                    <div class="footer-start__logo-wrapper">
+                        <a class="logo" href="#">
+                            <img src="/images/logo.svg" 
+                            width="148"
+                            height="44"
+                            alt="logo">
+                        </a>
+                        <p class="footer-start__text">Our vision is to provide convenience and help increase your sales business.</p>
+                        <a class="footer-start__tel" href="+998905833597">+998 90 583-35-97</a>
+                        <a class="footer-start__email" href="#">morent@gmail.com</a>
+                    </div>
+                    <ul class="footer-start__list">
+                        <li class="footer-start__item"><strong>About</strong></li>
+                        <li class="footer-start__item">How it works</li>
+                        <li class="footer-start__item">Featured</li>
+                        <li class="footer-start__item">Partnership</li>
+                        <li class="footer-start__item">Bussiness Relation</li>
+                    </ul>
+                    <ul class="footer-start__last-list">
+                        <li class="footer-start__last-item"><strong>Community</strong></li>
+                        <li class="footer-start__last-item">Events</li>
+                        <li class="footer-start__last-item">Blog</li>
+                        <li class="footer-start__last-item">Podcast</li>
+                        <li class="footer-start__last-item">Invite a friend</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer__end footer-end">
+            <div class="container">
+                <div class="footer-end__wrapper">
+                    <span class="footer-end__box">©2022 MORENT. All rights reserved</span>
+                    <ul class="footer-end__list">
+                        <li class="footer-end__item">
+                            <a href="#">
+                                <img src="./images/twitter.svg" width="24" height="24" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="footer-end__item">
+                            <a href="#">
+                                <img src="./images/instagram.svg" width="24" height="24" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer-end__item">
+                            <a href="#">
+                                <img src="./images/linkedIn.svg" width="24" height="24" alt="linkedin">
+                            </a>
+                        </li>
+                        <li class="footer-end__item">
+                            <a href="#">
+                                <img src="./images/telegram.svg" width="24" height="24" alt="telegram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

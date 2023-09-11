@@ -1,0 +1,119 @@
+
+.site-footer {
+    background-color: #fff;
+    padding-top: 80px;
+}
+
+.footer-start {
+    padding-bottom: 36px;
+    border-bottom: 1px solid #13131329;
+}
+
+.footer-start__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.footer-start__logo-wrapper {
+    max-width: 292px;
+    width: 100%;
+    margin-right: auto;
+}
+
+
+.footer-start__text {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: #13131399;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+.footer-start__tel {
+    text-decoration: none;
+    margin-bottom: 17px;
+    color: #13131399;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+.footer-start__email {
+    text-decoration: none;
+    color: #13131399;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+.footer-start__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-right: 60px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+.footer-start__item {
+    color: #13131399;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+.footer-start__last-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-start__last-item {
+    color: #13131399;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+strong {
+    color: #000;
+}
+
+.footer__end {
+    padding-top: 36px;
+}
+
+.footer-end__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-end__list {
+    display: flex;
+    column-gap: 32px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-end__box {
+    max-width: 200px;
+    width: 100%;
+}
