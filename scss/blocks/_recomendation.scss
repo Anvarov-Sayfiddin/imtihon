@@ -186,6 +186,18 @@
     font-weight: 600;
     line-height: 150%; /* 24px */
     letter-spacing: -0.32px;
+    border: 1px solid transparent;
+}
+
+.recomendation-item__link:hover {
+    background-color: #fff;
+    color: #3563e9;
+    border: 1px solid #3563e9;
+}
+
+.recomendation-item__link:active {
+    background-color: #1a37a7;
+    color: #fff;
 }
 
 .recomendation__link-wrapper {
@@ -208,6 +220,18 @@
     font-weight: 600;
     line-height: 150%; /* 24px */
     letter-spacing: -0.32px;
+    border: 1px solid transparent;
+}
+
+.recomendation__link:hover {
+    background-color: #fff;
+    color: #3563e9;
+    border: 1px solid #3563e9;
+}
+
+.recomendation__link:active {
+    background-color: #1a37a7;
+    color: #fff;
 }
 
 .recomendation__desc {

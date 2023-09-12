@@ -1,0 +1,214 @@
+
+
+
+.wrapperr {
+    display: flex;
+    column-gap: 32px;
+}
+
+.info__wrapper {
+    max-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    padding: 32px 32px 1176px 32px;
+    border-right: 1px solid #f3f5f7;
+    background-color: #fff;
+}
+
+.info-end {
+    padding-top: 32px;
+}
+
+.label__wrapper {
+    padding-bottom: 56px;
+}
+
+.info__text {
+    margin-top: 0;
+    margin-bottom: 28px;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+} 
+
+// .info__wrapper {
+//     display: flex;
+// }
+
+.filter__input {
+    margin-bottom: 32px;
+}
+
+.label {
+    color: #596780;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.4px;
+}
+
+
+
+.info-end__bg {
+    max-width: 492px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3563e9;
+    background-image: url("/images/hero2bg.png"), url("/images/carr.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, calc(50% + 4px) calc(50% + 100px);
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 96px;
+    padding-bottom: 176px;
+    padding-left: 24px;
+}
+
+.info-end__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.96px;
+}
+
+.info-end__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+}
+
+.info-end__title-wrapper {
+    max-width: 372px;
+    width: 100%;
+}
+
+.info-end__text-wrapper {
+    max-width: 284px;
+    width: 100%;
+}
+
+.imgg-wrapper {
+    display: flex;
+    column-gap: 32px;
+}
+
+.rasmm {
+    // padding: 8px;
+    max-width: 148px;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #3563e9;
+}
+
+.rasmm:hover {
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+
+.rasm {
+    max-width: 148px;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid transparent;
+}
+
+.rasm:hover {
+    border-radius: 10px;
+    border: 2px solid #3563e9;
+}
+
+.tugasin-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    padding-bottom: 50px;
+}
+
+.nissan-wrapper {
+    background-color: #fff;
+    padding: 24px;
+    padding-bottom: 32px;
+}
+
+.nissan__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a202c;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.96px;
+}
+
+.nissan__stars {
+    margin-bottom: 24px;
+}
+
+.nissan__text-wrapper {
+    max-width: 444px;
+    width: 100%;
+}
+
+.nissan__text {
+    margin-top: 0;
+    margin-bottom: 32px;
+    color: #596780;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    line-height: 200%; /* 40px */
+    letter-spacing: -0.4px;
+}
+
+.xaraktr__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.a {
+    max-width: 304px;
+    width: 100%;
+}
+
+.xaraktr {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #90a3bf;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.4px;
+}
+
+.xaraktr1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #596780;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.4px;
+}
+
+.linkk__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

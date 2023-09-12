@@ -2,6 +2,7 @@
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #fff;
 }
 
 .header__wrapper {
@@ -19,10 +20,28 @@
     margin-right: auto;
 }
 
+.header__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header__input {
+    position: relative;
     padding: 12px 279px 12px 64px; 
     border: 1px solid #edf2f8;
     border-radius: 70px;
+}
+
+.header__button {
+    display: none;
+    background-image: url("/images/headerbutton.svg");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #c3d4e966;
 }
 
 .header-nav__list {
