@@ -1116,7 +1116,7 @@ img {
 }
 
 .info-end__bg {
-  max-width: 492px;
+  max-width: 450px;
   width: 100%;
   border-radius: 10px;
   background-color: #3563e9;
@@ -1163,8 +1163,8 @@ img {
 
 .imgg-wrapper {
   display: flex;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .rasmm {
