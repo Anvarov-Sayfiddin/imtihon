@@ -1076,19 +1076,28 @@ img {
 }
 
 .footer-start__last-item {
-  color: rgba(19, 19, 19, 0.6);
   font-family: "Plus Jakarta Sans";
   font-weight: 500;
   line-height: 150%; /* 24px */
   letter-spacing: -0.32px;
 }
 
-strong {
+.footer-start__last-link:hover {
+  color: #000;
+}
+
+.footer-start__last-link {
+  text-decoration: none;
+  color: rgba(19, 19, 19, 0.6);
+}
+
+.footer-start__strong {
   color: #000;
 }
 
 .footer__end {
   padding-top: 36px;
+  padding-bottom: 60px;
 }
 
 .footer-end__wrapper {
